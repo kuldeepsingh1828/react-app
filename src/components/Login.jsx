@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 function Login({ color, text }) {
 
     const [data, setData] = useState({
