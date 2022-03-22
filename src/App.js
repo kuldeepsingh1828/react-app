@@ -12,6 +12,7 @@ export default function App() {
                 <Link to="/register" style={{ padding: "10px" }}>Register</Link>
                 <Link to="/login" style={{ padding: "10px" }}>Login</Link>
                 <Link to="/products" style={{ padding: "10px" }}>All Products</Link>
+                
                 <Routes>
                     <Route path="/" element={<h1>Home Page</h1>} />
                     <Route path="/register" element={<Register />} />

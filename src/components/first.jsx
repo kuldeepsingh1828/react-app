@@ -4,7 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 export default function first() {
     let params = useParams();
     console.log(params);
-    const data = "Kuldeep Singh extra";
+    const data = "Your Current ID is : " + params.id;
     const navigator = useNavigate();
     const clickHandler = function () {
         navigator("/second", { state: data });
